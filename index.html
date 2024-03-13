@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="/css/main.css">
+    <h1>Đăng nhập</h1>
+    <form  method="post">
+        <fieldset>
+            <fieldset>
+                <legend>
+                    Thông tin tài khoản
+                </legend>
+                <label class="text">Tên đăng nhập: <input type="text" name="username"> </label> <br>
+                <label class="text">Mật khẩu: <input type="password"> </label> <br>
+                <label class="text">Nhập lại mật khẩu: <input type="password"> </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>
+                    Thông tin cá nhân
+                </legend>
+                <label class="text">Họ tên: <input type="text" name="username"> </label> <br>
+                <label class="text">Địa chỉ: </label> <textarea name="areaname" id="area" cols="20" rows="2"></textarea>
+                <br>
+                <label class="text">Email: <input type="email"> </label> <br>
+                <label class="text">Ngày sinh: <input type="text" name="ngaysinh"> </label> <br>
+                <label class="text">Giới tính: 
+                    <input type="radio" name="Gt"> Nam
+                    <input type="radio" name="Gt"> Nữ
+                    <input type="radio" name="Gt"> Khác
+                </label>  <br>
+                <label class="text">
+                    Tỉnh thành: 
+                    <select>
+                        <option>Hà Nội</option>
+                        <option>Tp HCM</option>
+                        <option>Thái Nguyên</option>
+                        <option>Ninh Bình</option>
+                    </select>
+                </label> <br>
+                <label class="text">
+                    Ngoại ngữ:
+                    <input type="checkbox">Anh
+                    <input type="checkbox">Pháp
+                    <input type="checkbox">Nhật
+                    <input type="checkbox">Hàn
+                    <input type="checkbox">Nga
+                    <input type="checkbox">Trung
+                </label>
+            </fieldset>
+            <input class="box" type="submit" value="Submit" target="_blank">
+            <input class="box" type="reset" value="reset" target="_blank">
+        </fieldset>
+    </form>
+</body>
+</html>
